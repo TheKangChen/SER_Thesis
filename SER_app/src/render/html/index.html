@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soundscape Emotion Recognition</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/index.css" />
+    <script defer type="module" src="../js/render.js"></script>
+  </head>
+  <body>
+    <h1>Soundscape Emotion Recognition</h1>
+    <hr />
+    <div>
+      <!-- audio player area -->
+      <p id="audioName"></p>
+      <audio id="audio" class="audio" controls></audio>
+    </div>
+    <hr />
+    <svg class="container" viewBox="0 0 500 500">
+
+    </svg>
+    <hr />
+    <div>
+
+      <p id="status">Current Status</p>
+
+      <hr />
+      <button id="fileBtn">Select File Directory</button>
+      <!-- <button id="csvBtn">Select CSV File</button> -->
+      <button id="extractBtn" disabled>Extract Feature</button>
+      <button id="predictBtn" disabled>Predict</button>
+      <button id="saveOutputBtn"disabled>Save Extracted Features & Prediction</button>
+    </div>
+    <div>
+      <!-- selected clip area -->
+      <!-- <button> Select Clips </button> -->
+    </div>
+  </body>
+</html>
